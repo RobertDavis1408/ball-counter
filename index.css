@@ -6,9 +6,9 @@ body {
     font-weight: bold;
     text-align: center;
     height: 100vh;
-    background-position: center center;
+    justify-content: center;
     display: flex;
-    align-items: end;
+    align-items: center;
      
 }
 #container {
