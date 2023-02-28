@@ -6,7 +6,7 @@ body {
     font-weight: bold;
     text-align: center;
     height: 100vh;
-    justify-content: center;
+    
     display: flex;
     align-items: center;
      
@@ -14,17 +14,26 @@ body {
 #container {
     background-image: url("8ball1.jpg");
     background-size: cover;
-    max-width: 80%;
+    width: 80%;
     margin:  auto;
     border: 3px solid white;
     border-radius: 10px;
-    color: blue;
+    color: white;
     background-position: center center;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 25px 17px;
    
     
 }
+#btn-alg{
+    display: inline;
+}
 #count-el{
-    color: blue;
+    color: red;
      -webkit-text-stroke: 1px black;
 }
 #save-el{
@@ -39,10 +48,11 @@ h1 {
 
 @font-palette-values --Nabla {
 	font-family: Nabla;
-	base-palette: 2;
+	base-palette: 1;
 }
 
 span {
+    font-size: larger;
 	animation: depth 1s ease-in-out alternate infinite;
 	position: relative;
 	display: inline-block;
@@ -88,6 +98,6 @@ button {
 }
 
 #save-btn {
-    background: darkgreen;
+    background: rgb(79, 219, 13);
 }
 
